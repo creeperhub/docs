@@ -5,7 +5,7 @@
   "colors": {
     "primary": "#000000",
     "light": "#272727",
-    "dark": "#FFFFFF"
+    "dark": "#000000"
   },
   "favicon": "/preview.svg",
   "navigation": {
@@ -76,8 +76,8 @@
     }
   },
   "logo": {
-    "light": "/logo/ch-nero.png",
-    "dark": "/logo/ch-bianco.png"
+    "light": "/logo/preview.svg",
+    "dark": "/logo/preview.svg"
   },
   "navbar": {
     "links": [
