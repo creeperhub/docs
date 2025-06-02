@@ -3,9 +3,9 @@
   "theme": "mint",
   "name": "CreeperHUB  Docs",
   "colors": {
-    "primary": "#16A34A",
-    "light": "#07C983",
-    "dark": "#15803D"
+    "primary": "#000000",
+    "light": "#272727",
+    "dark": "#FFFFFF"
   },
   "favicon": "/preview.svg",
   "navigation": {
@@ -76,8 +76,8 @@
     }
   },
   "logo": {
-    "light": "/logo/ch-black.svg",
-    "dark": "/logo/ch-white.svg"
+    "light": "/logo/ch-nero.png",
+    "dark": "/logo/ch-bianco.png"
   },
   "navbar": {
     "links": [
