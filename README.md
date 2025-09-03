@@ -1,4 +1,4 @@
-# Mintlify Starter Kit
+# Mintlify Starter Kit [![img](https://custom-icon-badges.demolab.com/badge/powered_by-creeperhub-white.svg?logo=creeperhub&logoColor=white)](https://creeperhub.net)
 
 Click on `Use this template` to copy the Mintlify starter kit. The starter kit contains examples including
 
