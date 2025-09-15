@@ -12,43 +12,57 @@ description: "Welcome to the home of the CreeperHUB documentation. In here you w
 <img
   className="hidden dark:block"
   src="/banner.png"
-  alt="Benner"
+  alt="CreeperHUB Banner"
   style={{ width:"100%" }}
-  title=""
+  title="CreeperHUB Banner"
 />
 
 ## Setting up
 
 The first step to register your own subdomain for free.
 
-### Disclaimer 
+### Disclaimer
 
-(**_As a reminder this DOCS is W.I.P so don't look around other pages until there will be an official announcement on the [CreeperHUB blog](https://creeperhub.net/blog)_**)
+([**_As a reminder this DOCS is W.I.P so don't look around other pages until there will be an official announcement on the CreeperHUB blog_**](https://creeperhub.net/blog))
 
 <CardGroup cols={2}>
-  <Card title="Get a github account" icon="user-check" href="https://github.com/creepersbs">
+  <Card title="Get a github account" icon="user-check" iconType="solid" color="#ffffff" href="https://github.com/creepersbs">
     Get your github account, required for autentication
   </Card>
-  <Card title="Understand DNS records" icon="globe-pointer" href="https://www.cloudflare.com/learning/dns/dns-records/">
+  <Card title="Understand DNS records" icon="globe-pointer" iconType="solid" color="#ffffff" href="https://www.cloudflare.com/learning/dns/dns-records/">
     Understand how DNS records work, as you will be required to select the record you need
   </Card>
 </CardGroup>
 
 ## Make it yours
 
-Update your docs to your brand and add valuable content for the best user conversion.
+Once you've succesfully created a GitHub account you just need to follow these steps:
 
 <CardGroup cols={2}>
-  <Card title="Customize Style" icon="palette" href="https://mintlify.com/docs/settings/global">
-    Customize your docs to your company's colors and brands
+  <Card title="Go to the Register repo" icon="globe-pointer" iconType="solid" color="#ffffff" href="https://github.com/creepersbs/register">
+    Check out the actual current way to register a subdomain
   </Card>
-  <Card title="Reference APIs" icon="code" href="https://mintlify.com/docs/api-playground/openapi">
-    Automatically generate endpoints from an OpenAPI spec
+  <Card title="Step 2" icon="code-fork" iconType="solid" color="#ffffff" href="https://github.com/creepersbs/register/fork">
+    [**Star**](https://docs.github.com/en/get-started/exploring-projects-on-github/saving-repositories-with-stars)** **and [Fork ](https://github.com/creepersbs/register/fork)the repository to your account
   </Card>
-  <Card title="Add Components" icon="screwdriver-wrench" href="https://mintlify.com/docs/content/components/accordions">
-    Build interactive features and designs to guide your users
+  <Card title="Step 3" icon="file-circle-plus" iconType="solid" color="#ffffff">
+    Add a file in the [**/domains**](https://github.com/creepersbs/register/blob/main/domains) folder called as you would love your domain to look like, something like this: `example.json`
   </Card>
-  <Card title="Get Inspiration" icon="stars" href="https://mintlify.com/customers">
-    Check out our showcase of our favorite documentation
+  <Card title="Step 4" icon="file-magnifying-glass" iconType="solid" color="#ffffff" href="https://github.com/creepersbs/register/blob/main/domains/template.json">
+    1. Fill up the information like showcased in the [**template.json**](https://github.com/creepersbs/register/blob/main/domains/template.json) file. (up to 3 domains x user)
+  </Card>
+  <Card title="Step 5" icon="code-pull-request" iconType="solid" color="#ffffff" href="https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request">
+    1. [Make a pull request](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request) and wait for an approval, the subdomain would take up to 24h to proceed (maybe even more, still within 1 week)
+  </Card>
+  <Card title="Last Step" icon="face-smile-relaxed" iconType="regular" color="#ffffff" href="https://github.com/creepersbs/register?tab=readme-ov-file#-getting-started">
+    1. Enjoy 🤩. Addictional Requirements are on the GitHub page on the **README.MD** file on the [**Register Repo **](https://github.com/creepersbs/register)
   </Card>
 </CardGroup>
+
+<Tip>
+  PLEASE MAKE SURE THE FILE YOU ADD IS A VALID [<u>.json</u>](https://en.wikipedia.org/wiki/JSON) FILE, USE [THIS TOOL](https://jsonlint.com/) TO VALIDATE IT
+</Tip>
+
+<Warning>
+  You **MUST **follow the [rules ](https://github.com/creepersbs/register?tab=security-ov-file)when registering a subdomain. 
+</Warning>
