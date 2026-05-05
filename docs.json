@@ -9,6 +9,25 @@
   },
   "favicon": "/preview.svg",
   "navigation": {
+    "global": {
+      "anchors": [
+        {
+          "anchor": "Documentation",
+          "icon": "book-open-cover",
+          "href": "https://creeperhub.net/docs"
+        },
+        {
+          "anchor": "Discord",
+          "icon": "discord",
+          "href": "https://creeperhub.net/discord"
+        },
+        {
+          "anchor": "Blog",
+          "icon": "newspaper",
+          "href": "https://creeperhub.net/blog"
+        }
+      ]
+    },
     "tabs": [
       {
         "tab": "Guides",
@@ -16,64 +35,12 @@
           {
             "group": "Get Started",
             "pages": [
-              "introduction",
-              "quickstart",
-              "development"
-            ]
-          },
-          {
-            "group": "Essentials",
-            "pages": [
-              "essentials/markdown",
-              "essentials/code",
-              "essentials/images",
-              "essentials/settings",
-              "essentials/navigation",
-              "essentials/reusable-snippets"
-            ]
-          }
-        ]
-      },
-      {
-        "tab": "API Reference",
-        "groups": [
-          {
-            "group": "API Documentation",
-            "pages": [
-              "api-reference/introduction"
-            ]
-          },
-          {
-            "group": "Endpoint Examples",
-            "pages": [
-              "api-reference/endpoint/get",
-              "api-reference/endpoint/create",
-              "api-reference/endpoint/delete",
-              "api-reference/endpoint/webhook"
+              "introduction"
             ]
           }
         ]
       }
-    ],
-    "global": {
-      "anchors": [
-        {
-          "anchor": "Documentation",
-          "href": "https://creeperhub.net/docs",
-          "icon": "book-open-cover"
-        },
-        {
-          "anchor": "Discord",
-          "href": "https://creeperhub.net/discord",
-          "icon": "discord"
-        },
-        {
-          "anchor": "Blog",
-          "href": "https://creeperhub.net/blog",
-          "icon": "newspaper"
-        }
-      ]
-    }
+    ]
   },
   "logo": {
     "light": "/logo/preview.svg",
